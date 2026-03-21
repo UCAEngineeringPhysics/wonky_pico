@@ -47,3 +47,21 @@ Run [`computer_messenger.py`](/tests/computer_messenger.py) on a desktop/laptop/
 cd ~/homer_pico/
 python3 tests/computer_usb_messenger.py
 ```
+
+
+## Wiring Table
+
+| Component | Pin Function | Pico GPIO Pin |
+| :--- | :--- | :--- |
+| **Left Motor** | | |
+| | PWM | GPIO 16 |
+| | INA | GPIO 17 |
+| | INB | GPIO 18 |
+| | Encoder Channel A | GPIO 26 |
+| | Encoder Channel B | GPIO 27 |
+| **Right Motor**| | |
+| | PWM | GPIO 21 |
+| | INA | GPIO 20 |
+| | INB | GPIO 19 |
+| | Encoder Channel A | GPIO 6 |
+| | Encoder Channel B | GPIO 7 |
