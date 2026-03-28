@@ -44,7 +44,7 @@ MicroPython scripts on Raspberry Pi Pico (2) for HomeR's motion control.
 Run [`computer_messenger.py`](/tests/computer_messenger.py) on a desktop/laptop/SBC to test USB communication.
 
 ```console
-cd ~/homer_pico/
+cd ~/wonky_pico/
 python3 tests/computer_usb_messenger.py
 ```
 
